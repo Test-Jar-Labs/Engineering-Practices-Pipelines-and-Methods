@@ -1,37 +1,83 @@
-## Welcome to GitHub Pages
+# Engineering-Practices-Pipelines-and-Methods
+Some helpful links and guides for Test Jar Labs good engineering practices pipelines and methods
 
-You can use the [editor on GitHub](https://github.com/Test-Jar-Labs/Engineering-Practices-Pipelines-and-Methods/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## [Unity Cloud Build](https://unity.com/features/cloud-build)
+- Automated Workflows
+- Concurrent Builds
+- Distribute everywhere
+- iOS: Need access to mac at least once for certificates
+- $9 dollars for teams up to 3 could be
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## [Jenkins Pipeline for Unity iOS](https://cemayan.medium.com/jenkins-pipeline-for-unity-ios-7cf66b3608f)
+- CI/CD Pipeline for Unity using Jenkins
+- iOS
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## [Semantic Github Commit Messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+- https://www.conventionalcommits.org/en/v1.0.0/
+```
+feat: (new feature for the user, not a new feature for build script)
+```
+```
+fix: (bug fix for the user, not a fix to a build script)
+```
+```
+docs: (changes to the documentation)
+```
+```
+style: (formatting, missing semi colons, etc; no production code change)
+```
+```
+refactor: (refactoring production code, eg. renaming a variable)
+```
+```
+test: (adding missing tests, refactoring tests; no production code change)
+```
+```
+chore: (updating grunt tasks etc; no production code change)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## [Unity + Git + LFS](https://thoughtbot.com/blog/how-to-git-with-unity)
+- Add Unity-specific .gitignore settings
+- Configure Unity for version control
+- Use Git Large File Storage
+- Unity Multiplayer
+- https://docs-multiplayer.unity3d.com/
 
-### Jekyll Themes
+## Upgrading Unity Version
+1. Make a commit with whatever source control software you're using.
+2. Close the project
+3. Open the project in a new version
+4. Deal with any issues. There is probably none!
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Test-Jar-Labs/Engineering-Practices-Pipelines-and-Methods/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## [Riot: Legends or Runeterra CI/CD Pipeline](https://technology.riotgames.com/news/legends-runeterra-cicd-pipeline)
+- Using Git Lfs mono repo that contains 
+- Game client code
+- Game server code
+- Game assets
+- Build scripts
+- Other tools
+- Separate mono repo for micro services 
+- Unity Game Engine
+- CI/CD with Jenkins
+- Infrastructure with AWS
+- Issue tracking with Jira
+- Internal Comms with Slack
+- Hierarchical branch based workflow 
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## [Unity Remote Config](https://docs.unity3d.com/Packages/com.unity.remote-config@1.4/manual/index.html)
+Remote Config is a cloud service that lets you tune and customize your app over the air without requiring an update to your game.
+
+## [Unity Assembly Definitions](https://www.youtube.com/watch?v=eovjb5xn8y0)
+Speed up unity compile times.
+
+## [Unity Domain Reloads](https://johnaustin.io/articles/2020/domain-reloads-in-unity#:~:text=Whenever%20you%20make%20a%20change%20in%20a%20Unity,are%20the%20bane%20of%20all%20large%20Unity%20projects)
+5 second iteration times
+
+
+
