@@ -79,5 +79,13 @@ Speed up unity compile times.
 ## [Unity Domain Reloads](https://johnaustin.io/articles/2020/domain-reloads-in-unity#:~:text=Whenever%20you%20make%20a%20change%20in%20a%20Unity,are%20the%20bane%20of%20all%20large%20Unity%20projects)
 5 second iteration times
 
+## [Normcore](https://normcore.io/documentation/guides/creating-a-player-controller.html)
+Plug and play Unity multiplayer solution.  
+
+## [Testing Unity Multiplayer Locally](https://docs-multiplayer.unity3d.com/docs/develop/tutorials/testing/testing_locally/index.html)
+Guide covering the available workflows for testing multiplayer games locally.
+
+## [ParrelSync](https://github.com/VeriorPies/ParrelSync)
+(Unity3D) Test multiplayer without building. 
 
 
