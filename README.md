@@ -80,7 +80,7 @@ Speed up unity compile times.
 5 second iteration times
 
 ## [Normcore](https://normcore.io/documentation/guides/creating-a-player-controller.html)
-Plug and play Unity multiplayer solution. So dope. Realtime Library Components for client server syncs.
+Free for prototyping and other uses $49 a month. Supportive of startups. Plug and play Unity multiplayer solution. So dope. Realtime Library Components for client server syncs.
 
 ## [Testing Unity Multiplayer Locally](https://docs-multiplayer.unity3d.com/docs/develop/tutorials/testing/testing_locally/index.html)
 Guide covering the available workflows for testing multiplayer games locally. ParrelSync is the best one within editor. You can also build.
