@@ -102,7 +102,7 @@ Guide covering the available workflows for testing multiplayer games locally. Pa
 ## [DoozyUI](https://doozyui.com/)
 Fantastic UI Tooling to manage states, animations, and screens for complex UI. Includes a visual scripting state manager called Nody that allows our designers to create complex UI flows without having to code as much if any at all. 
 
-## [MoveAI[(https://www.move.ai/)
+## [MoveAI](https://www.move.ai/)
 AI motion capture tool that allows you to create amazing mocap animations with just your phone. Can use just 1 camera and up to 6 of them for ultra accurate results. 
 
 ## [Playfab](https://playfab.com/)
